@@ -1,0 +1,14 @@
+{
+    "name": "codeigniter-packages/theme-bootstrap",
+    "type": "codeigniter-view",
+    "description": "codeigniter-packages/theme-bootstrap",
+    "authors": [
+        {
+            "name": "jooonwood",
+            "email": "jooonwood@gmail.com"
+        }
+    ],
+    "require": {
+        "codeigniter-packages/installer": "dev-master"
+    }
+}
