@@ -15,7 +15,11 @@
         }
     ],
     "require": {
-
+        "coreui/coreui": "^4.0",
+        "twbs/bootstrap": "^4.0",
+        "datatables/datatables": "^1.10",
+        "fortawesome/font-awesome": " ^5.15",
+        "snapappointments/bootstrap-select": " ^1.13"
     },
     "scripts": {
         "post-install-cmd": [
