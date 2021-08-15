@@ -15,6 +15,7 @@
         }
     ],
     "require": {
+        "andri-sudarmawijaya/theme-bootstrap": "~1.0",
         "coreui/coreui": "^4.0",
         "twbs/bootstrap": "^4.0",
         "datatables/datatables": "^1.10",
