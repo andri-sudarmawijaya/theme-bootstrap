@@ -1,7 +1,13 @@
 {
-    "name": "codeigniter-packages/theme-bootstrap",
+    "name": "andri-sudarmawijaya/theme-bootstrap",
     "type": "codeigniter-view",
     "description": "codeigniter-packages/theme-bootstrap",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AndriSudarmawijaya\\ThemeBootstrap\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "jooonwood",
@@ -9,6 +15,21 @@
         }
     ],
     "require": {
-        "codeigniter-packages/installer": "dev-master"
-    }
+
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "@post-install"
+        ],
+        "post-install": [
+            "chmod 700 src/scripts/post-install.sh & sh src/scripts/post-install.sh"
+        ],
+        "post-update-cmd": [
+            "@post-update"
+        ],
+        "post-update": [
+            "chmod 700 src/scripts/post-update.sh & sh src/scripts/post-update.sh"
+        ]
+    },
+    "minimum-stability": "dev"
 }
